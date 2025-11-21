@@ -1,0 +1,5 @@
+{
+  "name": "Conic Section Explorer",
+  "description": "Interactive visualization and analysis of general conic sections using React, Canvas, and Gemini AI.",
+  "requestFramePermissions": []
+}
