@@ -33,8 +33,8 @@ const App: React.FC = () => {
       
       lg: Grid Layout
     */
-    <div className="w-screen h-[100dvh] bg-slate-950 text-slate-100 font-sans overflow-hidden flex flex-col lg:grid lg:grid-cols-[360px_1fr] lg:grid-rows-[auto_1fr]">
-      
+    //<div className="w-screen h-[100dvh] bg-slate-950 text-slate-100 font-sans overflow-hidden flex flex-col lg:grid lg:grid-cols-[360px_1fr] lg:grid-rows-[auto_1fr]">
+      <div style={{ background: "white", color: "black", minHeight: "100vh" }}>
       {/* Control Panel Area */}
       <div className="flex-none z-20 shadow-sm lg:shadow-none lg:col-start-1 lg:row-start-1 lg:border-r lg:border-slate-800">
         <ControlPanel coefficients={coeffs} onChange={handleCoeffChange} />
